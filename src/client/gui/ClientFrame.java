@@ -4,15 +4,12 @@ import javax.swing.*;
 import java.applet.Applet;
 import java.awt.*;
 
-
 public class ClientFrame extends JFrame {
-
     Applet frame;
 
     JLabel playLabel = new JLabel(new ImageIcon("./play.png"));
 
     public static void main(String[] args) {
-
         JMenu menu, menu1, menu2;
         JMenuBar mb = new JMenuBar();
         menu = new JMenu("Start");
@@ -34,9 +31,8 @@ public class ClientFrame extends JFrame {
     JPanel panel;
 
     public ClientFrame(Applet applet) {
-
         this.applet = applet;
-        }
+    }
 
     public void init() {
         applet.setSize(new Dimension(800, 600));
