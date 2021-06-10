@@ -22,7 +22,7 @@ public class ClientFrame extends JFrame {
         mb.add(menu);
         mb.add(menu1);
         mb.add(menu2);
-        JFrame jframe = new JFrame("WetomBot");
+        JFrame jframe = new JFrame("RS-HACKING-COMMUNITY OSRS BOT");
         jframe.setPreferredSize(new Dimension(800, 600));
         jframe.setJMenuBar(mb);
         jframe.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
